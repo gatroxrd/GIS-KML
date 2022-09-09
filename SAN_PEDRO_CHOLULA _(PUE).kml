@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SAN_PEDRO_CHOLULA _(PUE).kml</name>
+	<Style id="shp2kml111200100115031_copy95">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>7fffd7df</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="shp2kml111200100115031_copy940">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#shp2kml111200100115031_copy95</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#shp2kml111200100115031_copy960</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="shp2kml111200100115031_copy960">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>7fffd7df</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SAN PEDRO CHOLULA (PUE)</name>
+		<snippet></snippet>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[Municipios<br><table border=0 cellpadding=2 cellspacing=2  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr bgcolor="#F4F1E4"><td bgcolor="#f4eed3" align="right"><b>NOMBRE</b></td><td>SAN PEDRO CHOLULA (PUE)</td></tr></table>]]></description>
+		<styleUrl>#shp2kml111200100115031_copy940</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-98.3093188348,19.1050415827,0 -98.29901515580001,19.1003981361,0 -98.2946884663,19.1070782433,0 -98.3002468374,19.0815581873,0 -98.29440641220002,19.0786519808,0 -98.2869200726,19.0876425443,0 -98.26175701550001,19.0823814947,0 -98.2647993949,19.0745948134,0 -98.2605801198,19.0730909826,0 -98.26050327570003,19.0699603903,0 -98.2660456263,19.0620495101,0 -98.2732485307,19.0603504357,0 -98.2821273129,19.0604545806,0 -98.27980766980001,19.0669383416,0 -98.28946904430001,19.0673693075,0 -98.2947554858,19.0593401922,0 -98.30353620530001,19.0581267176,0 -98.30571760319999,19.0475207311,0 -98.31365972790002,19.0516078728,0 -98.3243952718,19.0446138938,0 -98.32738570060002,19.0496633571,0 -98.33714594360001,19.0449103743,0 -98.3598501301,19.0435483287,0 -98.38511565150002,19.0335356662,0 -98.39470695919999,19.0325583058,0 -98.3950997738,19.0361084145,0 -98.403929257,19.0424046851,0 -98.40660564220001,19.0519215437,0 -98.40068976290002,19.0551389425,0 -98.38546610500001,19.0553576541,0 -98.38216604580001,19.0612644655,0 -98.37364002510002,19.0633222413,0 -98.37827018030001,19.0698801647,0 -98.38011840279999,19.06845615490001,0 -98.3853410657,19.0720715344,0 -98.38231296870001,19.0813899967,0 -98.38764987670002,19.0839432637,0 -98.3911772008,19.0755631123,0 -98.3945172188,19.0775770942,0 -98.39375429490001,19.0884923549,0 -98.3991230996,19.0945756884,0 -98.39713597559999,19.1009287877,0 -98.382446215,19.1154354105,0 -98.3695277673,19.1107775797,0 -98.36424244660002,19.1166959257,0 -98.3607676342,19.1150721894,0 -98.36948279750001,19.1045416153,0 -98.36401859100002,19.1024581215,0 -98.3419955025,19.1040119532,0 -98.3361630462,19.1018121069,0 -98.3296368931,19.1070332248,0 -98.31941068610001,19.0969760278,0 -98.3093188348,19.1050415827,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
