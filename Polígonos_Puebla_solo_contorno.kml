@@ -2,16 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Polígonos_Puebla_solo_contorno.kml</name>
-	<StyleMap id="shp2kml111200100115031_copy9400">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#shp2kml111200100115031_copy9521</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#shp2kml111200100115031_copy9600</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="shp2kml111200100115031_copy9600">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -26,14 +16,24 @@
 			<text>$[description]</text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ff00ff00</color>
+			<color>ffbbc8c5</color>
 			<width>1.3</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7fe4e0ee</color>
+			<color>7fccc8d4</color>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="shp2kml111200100115031_copy9400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#shp2kml111200100115031_copy9521</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#shp2kml111200100115031_copy9600</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="shp2kml111200100115031_copy9521">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -48,11 +48,11 @@
 			<text>$[description]</text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ff00ff00</color>
+			<color>ffbbc8c5</color>
 			<width>1.3</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7fe4e0ee</color>
+			<color>7fccc8d4</color>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
