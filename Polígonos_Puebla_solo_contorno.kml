@@ -61,7 +61,7 @@
 		<open>1</open>
 		<Style id="shp2kml">
 			<IconStyle>
-				<color>ffffffff</color>
+				<color>ffff0000</color>
 				<scale>1</scale>
 				<Icon>
 					<href>http://maps.google.com/mapfiles/kml/pal3/icon7.png</href>
