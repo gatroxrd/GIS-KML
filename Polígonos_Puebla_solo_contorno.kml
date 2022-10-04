@@ -16,7 +16,7 @@
 			<text>$[description]</text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>030303</color>
+			<color>64DD17</color>
 			<width>1.3</width>
 		</LineStyle>
 		<PolyStyle>
