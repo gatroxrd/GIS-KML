@@ -2,11 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Polígonos_Puebla_solo_contorno.kml</name>
-	<Style id="shp2kml111200100115031_copy9600">
+	<Style id="shp2kml111200100115031_copy9521">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -15,12 +15,38 @@
 		<BalloonStyle>
 			<text>$[description]</text>
 		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 		<LineStyle>
-			<color>64DD17</color>
+			<color>ff0055ff</color>
 			<width>1.3</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7fccc8d4</color>
+			<color>17ccc8d4</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="shp2kml111200100115031_copy9600">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>17ccc8d4</color>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
@@ -34,34 +60,12 @@
 			<styleUrl>#shp2kml111200100115031_copy9600</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="shp2kml111200100115031_copy9521">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.6</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text>$[description]</text>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffbbc8c5</color>
-			<width>1.3</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>7fccc8d4</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Folder>
 		<name>Polígonos</name>
 		<open>1</open>
 		<Style id="shp2kml">
 			<IconStyle>
-				<color>ffff0000</color>
+				<color>ffffffff</color>
 				<scale>1</scale>
 				<Icon>
 					<href>http://maps.google.com/mapfiles/kml/pal3/icon7.png</href>
