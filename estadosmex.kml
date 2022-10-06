@@ -3,38 +3,6 @@
 <Document>
 	<name>estadosmex.kmz</name>
 	<open>1</open>
-	<Style id="shp2kml">
-		<IconStyle>
-			<scale>0.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text>$[description]</text>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>3</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="shp2kml1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#shp2kml</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#shp2kml0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="shp2kml0">
 		<IconStyle>
 			<scale>0.1</scale>
@@ -51,7 +19,39 @@
 		</BalloonStyle>
 		<LineStyle>
 			<color>ff000000</color>
-			<width>3</width>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="shp2kml1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#shp2kml</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#shp2kml0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="shp2kml">
+		<IconStyle>
+			<scale>0.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.2</width>
 		</LineStyle>
 		<PolyStyle>
 			<fill>0</fill>
