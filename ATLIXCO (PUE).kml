@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ATLIXCO (PUE).kml</name>
+	<Style id="shp2kml111200100115031_copy950">
+		<IconStyle>
+			<color>ff7faaaa</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>8a00ffff</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="shp2kml111200100115031_copy96">
+		<IconStyle>
+			<color>ff7faaaa</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>8a00ffff</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00aaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="shp2kml111200100115031_copy94">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#shp2kml111200100115031_copy950</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#shp2kml111200100115031_copy96</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>ATLIXCO (PUE)</name>
+		<snippet></snippet>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[Puebla<br><table border=0 cellpadding=2 cellspacing=2  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr bgcolor="#F4F1E4"><td bgcolor="#f4eed3" align="right"><b>NOMBRE</b></td><td>ATLIXCO (PUE)</td></tr><tr bgcolor="#F4F1E4"><td bgcolor="#f4eed3" align="right"><b>ESTADO</b></td><td>PUE</td></tr><tr bgcolor="#F4F1E4"><td bgcolor="#f4eed3" align="right"><b>NIVELB</b></td><td>6</td></tr><tr bgcolor="#F4F1E4"><td bgcolor="#f4eed3" align="right"><b>POB_TOT</b></td><td>117111</td></tr><tr bgcolor="#F4F1E4"><td bgcolor="#f4eed3" align="right"><b>HAB_KM</b></td><td>394,8</td></tr></table>]]></description>
+		<styleUrl>#shp2kml111200100115031_copy94</styleUrl>
+		<Point>
+			<coordinates>-98.4527582172,18.9055222733,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
