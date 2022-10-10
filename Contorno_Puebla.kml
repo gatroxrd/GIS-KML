@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Contorno_Puebla.kml</name>
-	<Style id="shp2kml">
+	<Style id="sn_icon7">
 		<IconStyle>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pal3/icon7.png</href>
@@ -12,48 +12,44 @@
 			<scale>0</scale>
 		</LabelStyle>
 		<BalloonStyle>
-			<text>$[description]</text>
 			<color>ffbae3eb</color>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ffc8c0c8</color>
+			<color>ff0055ff</color>
+			<width>2.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ffc0c7c4</color>
-			<fill>0</fill>
+			<color>47ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="shp2kml0">
+	<Style id="sh_icon49">
 		<IconStyle>
 			<scale>0.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
 		<BalloonStyle>
-			<text>$[description]</text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ffc8c0c8</color>
-			<width>1.2</width>
+			<color>ff0055ff</color>
+			<width>2.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ffc0c7c4</color>
-			<fill>0</fill>
+			<color>47ffffff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="shp2kml1">
+	<StyleMap id="msn_icon7">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#sn_icon7</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#shp2kml0</styleUrl>
+			<styleUrl>#sh_icon49</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Placemark>
@@ -61,7 +57,7 @@
 		<snippet></snippet>
 		<Snippet maxLines="0"></Snippet>
 		<description><![CDATA[Estados<br><table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ESTADO</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">PUEBLA</font></td></tr></table>]]></description>
-		<styleUrl>#shp2kml1</styleUrl>
+		<styleUrl>#msn_icon7</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
