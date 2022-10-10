@@ -2,28 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>PALMAR DE BRAVO (PUE)_Error.kml</name>
-	<Style id="sn_placemark_circle">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.6</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>990000ff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_placemark_circle_highlight">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -40,7 +18,7 @@
 		</ListStyle>
 		<LineStyle>
 			<color>ff000000</color>
-			<width>5</width>
+			<width>3</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>990000ff</color>
@@ -56,6 +34,28 @@
 			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_placemark_circle">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>990000ff</color>
+		</PolyStyle>
+	</Style>
 	<Placemark>
 		<name>PALMAR DE BRAVO (PUE)</name>
 		<snippet></snippet>

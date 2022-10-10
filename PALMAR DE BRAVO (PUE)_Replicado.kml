@@ -5,13 +5,33 @@
 	<StyleMap id="msn_placemark_circle">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_placemark_circle</styleUrl>
+			<styleUrl>#sn_placemark_circle0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_placemark_circle0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
 	<Style id="sh_placemark_circle_highlight">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -22,35 +42,11 @@
 		<LabelStyle>
 			<scale>0.6</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
 		<LineStyle>
 			<color>ff005500</color>
-			<width>5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>9900ff00</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_placemark_circle">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.6</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff005500</color>
-			<width>5</width>
+			<width>3</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>9900ff00</color>
