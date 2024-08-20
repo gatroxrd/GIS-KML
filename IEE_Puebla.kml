@@ -4,10 +4,9 @@
 	<name>IEE_Puebla.kml</name>
 	<Style id="failed">
 		<IconStyle>
-			<color>00ffffff</color>
 		</IconStyle>
 		<LineStyle>
-			<color>ff00ffff</color>
+			<color>ffbe4ead</color>
 			<width>5.6</width>
 		</LineStyle>
 	</Style>
@@ -23,39 +22,34 @@
 	</StyleMap>
 	<Style id="failed1">
 		<IconStyle>
-			<color>00ffffff</color>
 		</IconStyle>
 		<LineStyle>
-			<color>ff00ffff</color>
+			<color>ffbe4ead</color>
 			<width>5.6</width>
 		</LineStyle>
 	</Style>
-	<Folder id="results">
-		<name>IEE Puebla</name>
-		<open>1</open>
-		<Placemark id="1.2.1">
-			<name>Instituto Electoral del Estado</name>
-			<address>C. Aquiles Serdán Sur 416-A, San Felipe Hueyotlipan, 72030 Heroica Puebla de Zaragoza, Pue.</address>
-			<phoneNumber>222 303 1100</phoneNumber>
-			<snippet>C. Aquiles Serdán Sur 416-A, San Felipe Hueyotlipan, 72030 Heroica Puebla de Zaragoza, Pue.</snippet>
-			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=19.081782999999994&lng=-98.2154381&fid=0x85cfc72848e928e7:0x2e022be4f7b34732&hl=es-419&gl=mx&client=earth-client&cv=7.3.6.9796&useragent=GoogleEarth/7.3.6.9796(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
-			<styleUrl>#failed0</styleUrl>
-			<ExtendedData>
-				<Data name="placepageUri">
-					<value>https://www.google.com/earth/rpc/entity?lat=19.081782999999994&amp;lng=-98.2154381&amp;fid=0x85cfc72848e928e7:0x2e022be4f7b34732&amp;hl=es-419&amp;gl=mx&amp;client=earth-client&amp;cv=7.3.6.9796&amp;useragent=GoogleEarth/7.3.6.9796(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)</value>
-				</Data>
-			</ExtendedData>
-			<MultiGeometry>
-				<Point>
-					<coordinates>-98.21571359999999,19.0818596,0</coordinates>
-				</Point>
-				<LinearRing>
-					<coordinates>
-						-98.21611497173602,19.08068432000825,0 -98.2154376217035,19.08292366331728,0 -98.21432588662536,19.08235470212735,0 -98.21473459987283,19.08092282985001,0 -98.21611497173602,19.08068432000825,0 
-					</coordinates>
-				</LinearRing>
-			</MultiGeometry>
-		</Placemark>
-	</Folder>
+	<Placemark id="1.2.1">
+		<name>Instituto Electoral del Estado</name>
+		<address>C. Aquiles Serdán Sur 416-A, San Felipe Hueyotlipan, 72030 Heroica Puebla de Zaragoza, Pue.</address>
+		<phoneNumber>222 303 1100</phoneNumber>
+		<snippet>C. Aquiles Serdán Sur 416-A, San Felipe Hueyotlipan, 72030 Heroica Puebla de Zaragoza, Pue.</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=19.081782999999994&lng=-98.2154381&fid=0x85cfc72848e928e7:0x2e022be4f7b34732&hl=es-419&gl=mx&client=earth-client&cv=7.3.6.9796&useragent=GoogleEarth/7.3.6.9796(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#failed0</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=19.081782999999994&amp;lng=-98.2154381&amp;fid=0x85cfc72848e928e7:0x2e022be4f7b34732&amp;hl=es-419&amp;gl=mx&amp;client=earth-client&amp;cv=7.3.6.9796&amp;useragent=GoogleEarth/7.3.6.9796(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>-98.21571359999999,19.0818596,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					-98.2158282988685,19.08166827083891,0 -98.21569745348714,19.08206007565876,0 -98.21495932396328,19.0818053654879,0 -98.2151115681001,19.08140335369454,0 -98.2158282988685,19.08166827083891,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
 </Document>
 </kml>
